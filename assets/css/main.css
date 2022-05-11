@@ -1929,7 +1929,7 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 		
-		.main > .content .medium {
+		.main > .content.medium {
 			width: 45%;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
@@ -2034,7 +2034,7 @@ input, select, textarea {
 			}
 
 		.main.style3 {
-			text-align: center;
+			text-align: left;
 			padding: 6em 0 6em 0;
 		}
 
@@ -2047,7 +2047,7 @@ input, select, textarea {
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #ffffff;
 			}
 
 		.main.dark {
@@ -2089,6 +2089,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
+				background-color: transparent;
 				width: 50%;
 			}
 
@@ -2097,6 +2098,7 @@ input, select, textarea {
 		@media screen and (max-width: 1000px) {
 
 			.main.style2 .content {
+				background-color: transparent;
 				width: 60%;
 			}
 
@@ -2106,6 +2108,10 @@ input, select, textarea {
 
 			.main > .content br {
 				display: none;
+			}
+			
+			.main > .content {
+				background-color: transparent;
 			}
 
 			.main.fullscreen {
@@ -2135,7 +2141,7 @@ input, select, textarea {
 				.main.style2 .content {
 					width: 100%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
@@ -2143,7 +2149,7 @@ input, select, textarea {
 				}
 
 			.main.style3 {
-				text-align: center;
+				text-align: left;
 				padding: 3em 10px 3em 10px;
 			}
 
@@ -2152,10 +2158,15 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.main > .content {
+				background-color: transparent;
 				max-width: calc(100% - 1.5em);
 			}
 			
-			.main > .content .medium {
+			.main > .content h2 {
+				font-size: 2rem;
+			}
+			
+			.main > .content.medium {
 			    width: 100%;
 		    }
 
@@ -2180,8 +2191,8 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		background: #000;
+		color: rgba(255, 255, 255, 1);
 		overflow: hidden;
 	}
 
