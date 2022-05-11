@@ -540,8 +540,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 12pt;
-				line-height: 1.5em;
+				font-size: 13pt;
+				line-height: 1.35em;
 			}
 
 		}
@@ -557,7 +557,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 3.75em;
-		line-height: 1.25em;
+		line-height: 1.35em;
 		letter-spacing: -0.015em;
 	}
 
@@ -565,6 +565,7 @@ input, select, textarea {
 
 		h2 {
 			font-size: 1.5em;
+			line-height: 2em;
 		}
 
 	}
@@ -636,7 +637,7 @@ input, select, textarea {
 
 				.box.style2 {
 					padding: 1.5em 1.25em 1.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.9);
+					background-color: rgba(255, 255, 255, 0);
 				}
 
 		}
@@ -1958,7 +1959,7 @@ input, select, textarea {
 
 			.main.style1 h2 {
 				font-size: 3.75em;
-				line-height: 1em;
+				line-height: 1.15em;
 			}
 
 			.main.style1 > .content {
