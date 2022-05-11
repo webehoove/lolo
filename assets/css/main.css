@@ -503,7 +503,6 @@ input, select, textarea {
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #000;
-		letter-spacing: 0.025em;
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -548,9 +547,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
 		color: inherit;
-		letter-spacing: -0.0325em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -559,9 +556,9 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
+		font-size: 3.75em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		letter-spacing: -0.015em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1960,7 +1957,7 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 3.75em;
 				line-height: 1em;
 			}
 
