@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("fontawesome-all.min.css");
-
 @font-face {
   font-family: 'TeXGyreHeros-Regular';
-  src: url(texgyreheros-regular.woff2) format('woff2');
+  src: url(../texgyreheros-regular.woff2) format('woff2');
 }
 
 html, body, div, span, applet, object,
