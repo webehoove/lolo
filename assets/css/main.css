@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("fontawesome-all.min.css");
+
 @font-face {
   font-family: 'TeXGyreHeros-Regular';
-  src: url(../texgyreheros-regular.woff2) format('woff2');
+  src: url(../../texgyreheros-regular.woff2) format('woff2');
 }
 
 html, body, div, span, applet, object,
@@ -496,7 +499,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "TeXGyreHeros-Regular", sans-serif;
+		font-family: "TeXGyreHeros-Regular", "serif";
 		font-weight: 400;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -546,7 +549,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+		font-weight: 400;
 		color: inherit;
 		letter-spacing: -0.0325em;
 	}
