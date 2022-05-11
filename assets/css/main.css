@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@font-face {
+  font-family: 'TeXGyreHeros-Regular';
+  src: url(texgyreheros-regular.woff2) format('woff2');
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -500,8 +499,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
+		font-family: "TeXGyreHeros-Regular", "sans-serif";
+		font-weight: 400;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #000;
