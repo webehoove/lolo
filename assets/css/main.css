@@ -1939,7 +1939,11 @@ input, select, textarea {
 		
 		.main > .content.medium {
 			width: 40%;
-			max-width: calc(100% - 4em);
+			margin: 0 auto;
+		}
+		
+		.main > .content.medium video {
+			width: 100%;
 			margin: 0 auto;
 		}
 
