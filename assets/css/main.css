@@ -1,7 +1,7 @@
 @import url("fontawesome-all.min.css");
 @font-face {
-  font-family: WBHS-Light;
-  src: url(../../WBHS-Light.woff2);
+  font-family: WBS-Regular;
+  src: url(../../WBS-Regular.woff2);
 }
 
 
@@ -498,7 +498,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: 'WBHS-Light', sans-serif;
+		font-family: 'WBS-Regular', sans-serif;
 		font-size: 16pt;
 		letter-spacing: 0;
 		line-height: 1.35em;
@@ -1862,7 +1862,6 @@ input, select, textarea {
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 1em;
 					color: rgba(0, 0, 0, 1);
 				}
 
