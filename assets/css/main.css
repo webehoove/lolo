@@ -500,8 +500,8 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'WBS-Regular', sans-serif;
 		font-size: 16pt;
-		letter-spacing: 0;
-		line-height: 1.05em;
+		letter-spacing: -0.01em;
+		line-height: 1.25em;
 		color: #000;
 	}
 
