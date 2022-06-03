@@ -556,7 +556,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 3.75em;
+		font-size: 3em;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1901,7 +1901,21 @@ input, select, textarea {
 					}
 
 				#header nav {
-					display: none;
+					width: 100%;
+					margin: 0;
+					padding: 2em 0 0 0;
+				}
+				
+				#header nav ul {
+					font-size: 0.8em;
+					display: inline-block;
+					width: 100%;
+					text-align: center;
+				}
+				
+				#header nav ul li a {
+					margin: 0;
+					padding: 0;
 				}
 
 		}
