@@ -1,7 +1,7 @@
 @import url("fontawesome-all.min.css");
 @font-face {
-  font-family: WBS-Regular;
-  src: url(../../WBS-Regular.woff2);
+  font-family: BS-Regular;
+  src: url(../../BS-Regular.woff2);
 }
 
 
@@ -498,9 +498,9 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: 'WBS-Regular', sans-serif;
+		font-family: 'BS-Regular', sans-serif;
 		font-size: 16pt;
-		letter-spacing: -0.01em;
+		letter-spacing: normal;
 		line-height: 1.25em;
 		color: #000;
 	}
