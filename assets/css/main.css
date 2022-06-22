@@ -3286,17 +3286,13 @@ input, select, textarea {
 		overflow: hidden;
 	}
 	
-	    #wrapper > .color1 {
-			background-color: #f5f5f5;
-		}
-
-		#wrapper > .bg {
+	    #wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #000;	
+			background-color: #fff;	
 			z-index: -1;
 		}
 
@@ -3623,6 +3619,7 @@ input, select, textarea {
 
 		#main > .post {
 			padding: 0.5rem ;
+			margin-top: 0.5rem ;
 		}
 		
 		    #main > .post header.major > .date {
@@ -3644,6 +3641,7 @@ input, select, textarea {
 
 				#main > .post {
 					padding: 0.5rem ;
+					margin-top: 0.5rem ;
 				}
 
 			}
@@ -3652,6 +3650,7 @@ input, select, textarea {
 
 				#main > .post {
 					padding: 0.5rem ;
+					margin-top: 0.5rem ;
 				}
 
 			}
@@ -3659,7 +3658,8 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 0.5rem ;
+					padding: 0.75rem ;
+					margin-top: 0.25rem ;
 				}
 
 					#main > .post header.major > .date {
