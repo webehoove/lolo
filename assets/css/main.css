@@ -551,20 +551,20 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: 0.5rem;
-			margin-left: -0.5rem;
+			margin-top: 0.8rem;
+			margin-left: -0.8rem;
 		}
 
 			.row > * {
-				padding: 0 0 0 0.5rem;
+				padding: 0 0 0 0.8rem;
 			}
 
 			.row.gtr-uniform {
-				margin-top: -0.5rem;
+				margin-top: -0.8rem;
 			}
 
 				.row.gtr-uniform > * {
-					padding-top: 0.5rem;
+					padding-top: 0.8rem;
 				}
 
 		.row.gtr-150 {
@@ -794,20 +794,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -1039,20 +1039,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 -0.5rem;
+						padding: 0 0 0 -0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -1284,20 +1284,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -1529,20 +1529,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 -0.5rem;
+						padding: 0 0 0 -0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -1774,20 +1774,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 -0.5rem;
+						padding: 0 0 0 -0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -2019,20 +2019,20 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.5rem;
-					margin-left: -0.5rem;
+					margin-top: 0.8rem;
+					margin-left: -0.8rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 -0.5rem;
+						padding: 0 0 0 -0.8rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.8rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.8rem;
 						}
 
 				.row.gtr-150 {
@@ -2699,7 +2699,7 @@ input, select, textarea {
 			}
 			
 			.image.fit.next {
-				margin-top: 0.5rem;
+				margin-top: 0.8rem;
 			}
 
 		}
@@ -3618,8 +3618,8 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 0.5rem ;
-			margin-top: 0.5rem ;
+			padding: 0.8rem ;
+			margin-top: 0.8rem ;
 		}
 		
 		    #main > .post header.major > .date {
@@ -3640,8 +3640,8 @@ input, select, textarea {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 0.5rem ;
-					margin-top: 0.5rem ;
+					padding: 0.8rem ;
+					margin-top: 0.8rem ;
 				}
 
 			}
@@ -3649,8 +3649,8 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 
 				#main > .post {
-					padding: 0.5rem ;
-					margin-top: 0.5rem ;
+					padding: 0.8rem ;
+					margin-top: 0.8rem ;
 				}
 
 			}
@@ -3658,8 +3658,8 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 0.75rem ;
-					margin-top: 0.25rem ;
+					padding: 0.8rem ;
+					margin-top: 0.4rem ;
 				}
 
 					#main > .post header.major > .date {
