@@ -3601,7 +3601,7 @@ input, select, textarea {
 	#main.invert {
 		background-color: #000;
 		color: #fff;
-		margin: 0 0 3rem 0;
+		margin: 0;
 	}
 
 		#main > * {
