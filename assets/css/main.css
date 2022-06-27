@@ -1775,7 +1775,7 @@ input, select, textarea {
 						}
 
 				.row {
-					margin-top: 0.8rem;
+					margin-top: 0.4rem;
 					margin-left: -0.8rem;
 				}
 
@@ -1784,7 +1784,7 @@ input, select, textarea {
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.8rem;
+						margin-top: -0.4rem;
 					}
 
 						.row.gtr-uniform > * {
