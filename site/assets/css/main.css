@@ -1927,7 +1927,6 @@ input::-moz-focus-inner {
 			
 			.banner.style5 .image video {
 				-webkit-appearance: none;
-                transform: rotateY(180deg);
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
@@ -1942,7 +1941,7 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.9;
+				opacity: 1;
 				z-index: 1;
 			}
 
