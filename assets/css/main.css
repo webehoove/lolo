@@ -489,9 +489,6 @@ h2 {
 }
 }
  @media screen and (max-width: 820px) {
-p {
-	width: 80%;
-}
 h1 {
 	font-size: 1.75rem;
 }
@@ -519,7 +516,6 @@ p {
 	font-size: 1.3rem;
 	line-height: 1.25;
 	margin-bottom: 1.2;
-	width: 100%;
 }
 h1 {
 	font-size: 1.75rem;
