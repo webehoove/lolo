@@ -244,36 +244,22 @@ p {
 	font-size: 1.25rem;
 	line-height: 1.25;
 	margin-bottom: 1.25rem;
-	opacity: .6;
 }
 h1 {
 	font-size: 2.5rem;
 	line-height: 1.1;
 }
-h1.special_one {
-	font-size: 3.25rem;
-	line-height: 1.05;
-}
-h1.special_two {
-	font-size: 4rem;
-	line-height: 1;
-}
 h1.special {
-	font-size: 2.5rem;
-	line-height: 1;
+	font-size: 3rem;
+	line-height: 1.1;
 }
-h1.title {
-	font-size: 4rem;
-	line-height: 0.95;
+h1.special_one {
+	font-size: 3.5rem;
+	line-height: 1.05;
 }
 h2 {
 	font-size: 2.15rem;
-	line-height: 1.1;
-}
-h2.text_norm {
-	font-size: 1.35rem;
-	line-height: 1.1;
-	width: 90%;
+	line-height: 1.15;
 }
 h3 {
 	font-size: 1.5rem;
@@ -387,15 +373,18 @@ hr.lineer_zero {
 .align-right {
 	text-align: right;
 }
+.text_low {
+	opacity: .75;
+}
  @media screen and (max-width: 1680px) {
 h1 {
 	font-size: 2.35rem;
 }
-h1.special_two {
-	font-size: 3.25rem;
-}
 h1.special {
-	font-size: 2.15rem;
+	font-size: 2.5rem;
+}
+h1.special_one {
+	font-size: 3.25rem;
 }
 h1.title {
 	font-size: 3.5rem;
@@ -415,54 +404,48 @@ hr.lineer {
 h1 {
 	font-size: 2.35rem;
 }
+h1.special {
+	font-size: 2.15rem;
+}
 h1.special_one {
 	font-size: 2.75rem;
 }
 h1.special_two {
 	font-size: 3rem;
 }
-h1.special {
-	font-size: 2.15rem;
-}
 h1.title {
 	font-size: 3.5rem;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 }
  @media screen and (max-width: 1280px) {
 h1 {
 	font-size: 2rem;
 }
+h1.special {
+	font-size: 2.25rem;
+}
 h1.special_one {
 	font-size: 2.6rem;
 }
-h1.special_two {
-	font-size: 2.75rem;
-}
-h1.special {
-	font-size: 1.75rem;
-}
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 }
  @media screen and (max-width: 1180px) {
 h1 {
 	font-size: 2rem;
 }
-h1.special_one {
-	font-size: 2.5rem;
-}
-h1.special_two {
-	font-size: 2.75rem;
-}
 h1.special {
-	font-size: 1.75rem;
+	font-size: 2.25rem;
+}
+h1.special_one {
+	font-size: 2.6rem;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 }
 hr {
 	margin: 1rem 0;
@@ -475,14 +458,11 @@ hr.lineer_bottom_small {
 h1 {
 	font-size: 2rem;
 }
+h1.special {
+	font-size: 2rem;
+}
 h1.special_one {
 	font-size: 2.35rem;
-}
-h1.special_two {
-	font-size: 2.5rem;
-}
-h1.special {
-	font-size: 1.75rem;
 }
 h2 {
 	font-size: 1.5rem;
@@ -492,23 +472,15 @@ h2 {
 h1 {
 	font-size: 1.75rem;
 }
+h1.special {
+	font-size: 2.15rem;
+}
 h1.special_one {
 	font-size: 2.5rem;
 	line-height: 1;
 }
-h1.special_two {
-	font-size: 2.35rem;
-}
-h1.special {
-	font-size: 2rem;
-}
-h1.title {
-	font-size: 3rem;
-}
 h2 {
-	font-size: 1.85rem;
-	line-height: 0.95;
-	width: 80%;
+	font-size: 1.75rem;
 }
 }
  @media screen and (max-width: 736px) {
@@ -521,37 +493,20 @@ h1 {
 	font-size: 1.75rem;
 	line-height: 1.1;
 }
+h1.special {
+	font-size: 2rem;
+	line-height: 1.05;
+}
 h1.special_one {
 	font-size: 2.1rem;
 	line-height: 1.1;
 }
-h1.special_two {
-	font-size: 2.1rem;
-	line-height: 1.1;
-}
-h1.special {
-	font-size: 1.85rem;
-	line-height: 1.05;
-}
-h1.title {
-	font-size: 2.6rem;
-	line-height: 1;
-}
 h2 {
-	font-size: 1.35rem;
-	line-height: 1.2;
-	width: 100%;
-}
-h2.text_norm {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	line-height: 1.2;
 }
 h3 {
 	font-size: 1.5rem;
-	line-height: 1.1;
-}
-h3.text_norm {
-	font-size: 1.4rem;
 	line-height: 1.1;
 }
 h4 {
