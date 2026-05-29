@@ -222,7 +222,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 12px;
+				font-size: 13px;
 			}
 
 		}
@@ -230,7 +230,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 12px;
+				font-size: 13px;
 			}
 
 		}
@@ -238,7 +238,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 375px) {
 
 			html {
-				font-size: 12px;
+				font-size: 13px;
 			}
 
 		}
