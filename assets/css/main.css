@@ -274,7 +274,7 @@ h5 {
 	line-height: 1.2;
 }
 h6 {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	line-height: 1.2;
 }
 sub {
@@ -374,7 +374,7 @@ hr.lineer_zero {
 	text-align: right;
 }
 .text_low {
-	opacity: .75;
+	opacity: .65;
 }
  @media screen and (max-width: 1680px) {
 h1 {
@@ -514,11 +514,11 @@ h4 {
 	line-height: 1.15;
 }
 h5 {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 1.2;
 }
 h6 {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	line-height: 1;
 }
 hr {
