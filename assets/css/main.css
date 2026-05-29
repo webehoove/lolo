@@ -374,6 +374,10 @@ hr.lineer_start {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
 	margin: 0 0 4rem 0;
 }
+hr.lineer_zero {
+	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	margin: 1rem 0;
+}
 .align-left {
 	text-align: left;
 }
@@ -2085,6 +2089,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert hr {
 	border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+#wrapper > .invert hr.lineer_zero {
+	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 #wrapper > .invert .box02 {
 	border-color: rgba(255, 255, 255, 0.85);
