@@ -804,7 +804,7 @@ input[type="submit"],  input[type="reset"],  input[type="button"],  button,  .bu
 	width: auto;
 	height: 2.5rem;
 	line-height: 2.5;
-	border-radius: 0.25rem;
+	border-radius: 1.15rem;
 	padding: 0 1rem;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -828,7 +828,7 @@ input[type="submit"].large,  input[type="reset"].large,  input[type="button"].la
 	height: 3.5rem;
 	line-height: 3.5rem;
 	width: auto;
-	border-radius: 0.25rem;
+	border-radius: 1.15rem;
 	padding: 0 1.5rem;
 	text-align: center;
 }
@@ -879,7 +879,7 @@ input[type="submit"].large,  input[type="reset"].large,  input[type="button"].la
 	height: 4rem;
 	line-height: 4rem;
 	width: auto;
-	border-radius: 0.25rem;
+	border-radius: 1.25rem;
 	padding: 0 1.75rem;
 	text-align: center;
 }
