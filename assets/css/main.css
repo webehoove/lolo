@@ -495,7 +495,7 @@ h1 {
 }
 h1.special {
 	font-size: 2rem;
-	line-height: 1.05;
+	line-height: 1.1;
 }
 h1.special_one {
 	font-size: 2.1rem;
@@ -503,7 +503,7 @@ h1.special_one {
 }
 h2 {
 	font-size: 1.75rem;
-	line-height: 1.2;
+	line-height: 1.35;
 }
 h3 {
 	font-size: 1.5rem;
