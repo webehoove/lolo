@@ -1,0 +1,215 @@
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+	z-index: 4;
+}
+.scrolled {
+	background-color: #041e42;
+	transition: 0.3s;
+}
+.logotype_wm_w {
+	color: #FFF;
+}
+.logotype_wm_b {
+	color: #012040;
+}
+.logotype_name {
+	font-size: 2rem;
+	line-height: 1.2;
+	letter-spacing: 0;
+}
+.logotype_lockup {
+	width: 11rem;
+}
+.logotype_lockup_b {
+	width: 4rem;
+	margin-bottom: 1.5rem;
+}
+ul.topmenu {
+	position: relative;
+	list-style: none;
+	font-size: 0.9rem;
+	padding: 0;
+	margin: 0;
+	top: 0.35rem;
+}
+ul.topmenu li {
+	display: inline-block;
+	padding-right: 2rem;
+}
+ul.topmenu li a {
+}
+ul.topmenu li a:hover {
+	border-bottom: none;
+}
+ul.topmenu li:first-child {
+	padding-left: 0;
+}
+ul.topmenu_block {
+	position: relative;
+	list-style: none;
+	font-size: 0.9rem;
+	padding: 0;
+	margin: 0;
+	top: 0.35rem;
+}
+ul.topmenu_block li {
+	display: block;
+	margin-bottom: 0.35rem;
+}
+ul.topmenu_block li a {
+}
+ul.topmenu_block li a:hover {
+	border-bottom: none;
+}
+.menumob {
+	display: none;
+}
+ul.bottommenu {
+	list-style: none;
+	font-size: 0.9rem;
+	line-height: 1.2;
+	padding: 0;
+	margin: 0;
+}
+ul.bottommenu li {
+	display: block;
+	margin-bottom: 1rem;
+}
+ul.bottommenu_hor {
+	list-style: none;
+	font-size: 0.9rem;
+	line-height: 0.9;
+	padding: 0;
+	margin: 0;
+}
+ul.bottommenu_hor li {
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+.goup {
+	position: relative;
+	float: right;
+	width: 2.25rem;
+	bottom: 0.7rem;
+}
+ul.goup li {
+	padding: 0.25rem 0.5rem 1rem 0;
+}
+.offdesk, .offdesk_title {
+	display: none;
+}
+ @media screen and (max-width: 1680px) {
+ul.topmenu, ul.topmenu_block {
+	font-size: 0.9rem;
+}
+ul.topmenu li, ul.topmenu_block li {
+	padding-right: 1rem;
+}
+}
+ @media screen and (max-width: 1366px) {
+.logotype_lockup {
+	width: 10rem;
+}
+ul.topmenu, ul.topmenu_block {
+	font-size: 0.85rem;
+}
+ul.topmenu li, ul.topmenu_block li {
+	padding-right: 1.15rem;
+}
+}
+ @media screen and (max-width: 1180px) {
+.menumob {
+	display: block;
+	padding: 0;
+	z-index: 5;
+}
+#hideitlow {
+	display: none;
+}
+.logotype_lockup_b {
+	width: 3rem;
+}
+#logotype_sym {
+	position: relative;
+	width: 3rem;
+	float: left;
+	top: -0.15rem;
+	left: 0;
+	margin-bottom: 0.5rem;
+	z-index: 4;
+}
+#logotype_wm {
+	position: relative;
+	font-size: 1.8rem;
+	line-height: 1.3;
+	letter-spacing: -0.03rem;
+	text-align: center;
+	top: 0;
+	left: -1.2rem;
+}
+.logotype_wm_w {
+	color: #FFF;
+}
+.logotype_wm_b {
+	color: #012040;
+}
+.offdesk {
+	display: block;
+}
+.offmobblock {
+	display: none;
+}
+}
+ @media screen and (max-width: 1080px) {
+.logotype_lockup_b {
+	width: 3rem;
+}
+}
+ @media screen and (max-width: 820px) {
+.logotype_lockup_b {
+	width: 3rem;
+}
+.offdesk_title {
+	display: block;
+}
+.offmobblock {
+	display: block;
+}
+}
+ @media screen and (max-width: 768px) {
+#logotype_sym {
+	position: relative;
+	width: 3.35rem;
+	float: left;
+	top: -0.5rem;
+	left: 0;
+	margin-bottom: 0;
+	z-index: 4;
+}
+#logotype_wm {
+	position: relative;
+	font-size: 1.8rem;
+	line-height: 1.3;
+	letter-spacing: -0.03rem;
+	text-align: center;
+	top: 0;
+	left: -1.2rem;
+}
+.logotype_lockup_b {
+	width: 3.35rem;
+}
+.offmobtext {
+	display: none;
+}
+}
+ @media screen and (max-width: 736px) {
+ul.bottommenu li {
+	font-size: 1.05rem;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+}
