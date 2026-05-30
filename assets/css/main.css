@@ -335,7 +335,7 @@ hr.end {
 }
 hr.block {
 	border: 0;
-	margin: 5rem 0;
+	margin: 3rem 0;
 }
 hr.block2 {
 	border: 0;
@@ -1376,7 +1376,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style5) */
 
 .banner.style5 {
-	padding: 1rem 2rem;
+	padding: 0 2rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1455,22 +1455,22 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 1680px) {
 .banner.style5 {
-	padding: 1rem 2rem;
+	padding: 0 2rem;
 }
 }
  @media screen and (max-width: 1366px) {
 .banner.style5 {
-	padding: 1rem 2rem;
+	padding: 0 2rem;
 }
 }
  @media screen and (max-width: 1280px) {
 .banner.style5 {
-	padding: 1rem 1.5rem;
+	padding: 0 1.5rem;
 }
 }
  @media screen and (max-width: 1080px) {
 .banner.style5 {
-	padding: 0.5rem 1rem;
+	padding: 0 1rem;
 }
 }
  @media screen and (max-width: 1024px) {
@@ -1543,7 +1543,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.style4 .content {
 	position: relative;
 	width: 100%;
-	height: 80svh;
+	height: 90svh;
 	overflow: hidden;
 	z-index: 2;
 }
@@ -1821,33 +1821,33 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	padding: 0;
 }
 .wrapper.style1 > .inner {
-	padding: 1rem 2rem;
+	padding: 2rem 2rem 0 2rem;
 	margin: 0 auto;
 	width: 100%;
 }
  @media screen and (max-width: 1680px) {
 .wrapper.style1 > .inner {
-	padding: 1rem 2rem;
+	padding: 2rem 2rem 0 2rem;
 }
 }
  @media screen and (max-width: 1280px) {
 .wrapper.style1 > .inner {
-	padding: 1rem 1.5rem;
+	padding: 1.5rem 1.5rem 0 1.5rem;
 }
 }
  @media screen and (max-width: 1080px) {
 .wrapper.style1 > .inner {
-	padding: 0.5rem 1rem;
+	padding: 1rem 1rem 0 1rem;
 }
 }
  @media screen and (max-width: 1024px) {
 .wrapper.style1 > .inner {
-	padding: 0 1rem;
+	padding: 1rem 1rem 0 1rem;
 }
 }
  @media screen and (max-width: 768px) {
 .wrapper.style1 > .inner {
-	padding: 0 1rem;
+	padding: 1rem 1rem 0 1rem;
 }
 }
 /* Wrapper (style2) */
