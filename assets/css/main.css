@@ -1398,7 +1398,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.style5 .content {
 	position: relative;
 	width: 100%;
-	height: 100svh;
+	height: 95svh;
 	overflow: hidden;
 	z-index: 2;
 }
