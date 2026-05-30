@@ -508,12 +508,12 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 3rem;
+	font-size: 2.75rem;
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 2.1rem;
-	line-height: 1.15;
+	font-size: 2.35rem;
+	line-height: 1.11;
 }
 h2 {
 	font-size: 1.75rem;
@@ -536,7 +536,7 @@ h6 {
 	line-height: 1;
 }
 hr {
-	margin: 1.5rem 0;
+	margin: 2rem 0;
 }
 hr.lineer2 {
 	margin: 0 0 2rem 0;
