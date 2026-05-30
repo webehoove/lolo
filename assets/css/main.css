@@ -262,6 +262,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .bd_tt {
 	font-family: 'HAYAT Serif Bold', serif;
 	font-weight: normal;
+	letter-spacing: 0.075rem;
 }
 .eb_tt {
 	font-family: 'HAYAT Serif ExtraBold', serif;
@@ -283,7 +284,7 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 4rem;
+	font-size: 3.75rem;
 	line-height: 1.1;
 }
 h1.special_one {
@@ -363,35 +364,11 @@ hr.block2 {
 }
 hr.lineer {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 10rem 0 4rem 0;
-}
-hr.lineer2 {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
 	margin: 1.5rem 0 3rem 0;
 }
-hr.lineer_min {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 1rem 0;
-}
-hr.lineer_block {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 3rem 0 3rem 0;
-}
-hr.lineer_block_text {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 8rem 0 7rem 0;
-}
-hr.lineer_bottom {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 10rem 0 2rem 0;
-}
-hr.lineer_bottom_small {
+hr.lineer_small {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
 	margin: 4rem 0 2rem 0;
-}
-hr.lineer_start {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 0 0 4rem 0;
 }
 hr.lineer_zero {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
@@ -414,7 +391,7 @@ h1 {
 	font-size: 2.35rem;
 }
 h1.special {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 h1.special_one {
 	font-size: 3.25rem;
@@ -431,16 +408,10 @@ h1 {
 	font-size: 2.35rem;
 }
 h1.special {
-	font-size: 3.5rem;
+	font-size: 3.35rem;
 }
 h1.special_one {
-	font-size: 2.75rem;
-}
-h1.special_two {
 	font-size: 3rem;
-}
-h1.title {
-	font-size: 3.5rem;
 }
 h2 {
 	font-size: 1.75rem;
@@ -454,7 +425,7 @@ h1.special {
 	font-size: 3rem;
 }
 h1.special_one {
-	font-size: 2.6rem;
+	font-size: 2.75rem;
 }
 h2 {
 	font-size: 1.75rem;
@@ -468,7 +439,7 @@ h1.special {
 	font-size: 3rem;
 }
 h1.special_one {
-	font-size: 2.6rem;
+	font-size: 2.75rem;
 }
 h2 {
 	font-size: 1.75rem;
@@ -476,7 +447,7 @@ h2 {
 hr {
 	margin: 1rem 0;
 }
-hr.lineer_bottom_small {
+hr.lineer_small {
 	margin: 1rem 0 2rem 0;
 }
 }
@@ -485,7 +456,7 @@ h1 {
 	font-size: 2rem;
 }
 h1.special {
-	font-size: 2.75rem;
+	font-size: 2.5rem;
 }
 h1.special_one {
 	font-size: 2.35rem;
@@ -520,11 +491,11 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2.5rem;
+	font-size: 2.1rem;
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 2.15rem;
+	font-size: 2.1rem;
 	line-height: 1.1;
 }
 h2 {
@@ -550,29 +521,14 @@ h6 {
 hr {
 	margin: 2rem 0;
 }
-hr.lineer2 {
-	margin: 0 0 2rem 0;
-}
-hr.end {
-	margin: 0.5rem 0;
-}
 hr.block {
-	margin: 1.5rem 0;
+	margin: 1rem 0;
 }
 hr.lineer {
 	border-bottom: 1px solid rgba(0, 0, 0, .65);
 	margin: 7rem -1rem 3rem -1rem;
 }
-hr.lineer_block {
-	margin: 3rem 0;
-}
-hr.lineer_block_text {
-	margin: 4rem 0;
-}
-hr.lineer_bottom {
-	margin: 6rem 0 1rem 0;
-}
-hr.lineer_bottom_small {
+hr.lineer_small {
 	margin: 0 0 1rem 0;
 }
 }
