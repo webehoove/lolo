@@ -184,7 +184,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: #041e42;
+	color: #031F30;
 }
 body, input, select, textarea {
 	font-family: 'HAYAT Sans Regular', Helvetica, sans-serif;
@@ -212,7 +212,6 @@ a:hover {
 strong, b {
 	font-family: 'HAYAT Sans Bd', Helvetica, sans-serif;
 	font-weight: normal;
-	letter-spacing: 0.05rem;
 }
 em, i {
 	font-style: italic;
@@ -513,10 +512,10 @@ h1.special {
 }
 h1.special_one {
 	font-size: 2.35rem;
-	line-height: 1.11;
+	line-height: 1.1;
 }
 h2 {
-	font-size: 1.75rem;
+	font-size: 2rem;
 	line-height: 1.35;
 }
 h3 {
@@ -631,7 +630,7 @@ ul.box_link li {
 }
 .box_wide {
 	position: relative;
-	background-color: rgba(4, 30, 66, 1);
+	background-color: rgba(3, 31, 48, 1);
 	padding: 2rem;
 	margin: 0;
 	width: 100%;
@@ -776,12 +775,12 @@ input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, but
 	width: 100%;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
-	font-size: 0.7rem;
+	font-size: 0.75rem;
 	width: auto;
-	height: 3rem;
-	line-height: 3.1;
-	border-radius: 0.25rem;
-	padding: 0 0 0 0.8rem;
+	height: 2.15rem;
+	line-height: 3;
+	border-radius: 1.5rem;
+	padding: 0 0.8rem;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 0.8rem;
@@ -797,41 +796,38 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 1px rgba(4, 30, 66, .6);
-	color: #041e42 !important;
+	box-shadow: inset 0 0 0 1px rgba(3, 31, 48, .15);
+	color: rgba(3, 31, 48, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-	box-shadow: inset 0 0 0 1px rgba(62, 63, 65, 1);
+	box-shadow: inset 0 0 0 1px rgba(3, 31, 48, 1);
 }
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
-	box-shadow: inset 0 0 0 1px rgba(4, 30, 66, 1);
-	color: rgba(62, 63, 65, 1);
+	box-shadow: inset 0 0 0 1px rgba(3, 31, 48, 1);
 }
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
-	background-color: rgba(4, 30, 66, 1);
+	background-color: rgba(3, 31, 48, .1);
+	box-shadow: none;
+	color: rgba(3, 31, 48, 1) !important;
+}
+input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, button.primary:hover, .button.primary:hover {
+	background-color: rgba(3, 31, 48, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+input[type="submit"].primary:active, input[type="reset"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active {
+	background-color: rgba(3, 31, 48, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+button.secondary, .button.secondary {
+	background-color: rgba(3, 31, 48, 1);
 	box-shadow: none;
 	color: rgba(255, 255, 255, 1) !important;
 }
-input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, button.primary:hover, .button.primary:hover {
-	background-color: #4a89f3;
-	box-shadow: none;
-}
-input[type="submit"].primary:active, input[type="reset"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active {
-	background-color: rgba(62, 63, 65, .7);
-	box-shadow: none;
-}
-button.secondary, .button.secondary {
-	background-color: rgba(255, 255, 255, 1);
-	box-shadow: none;
-	color: rgba(62, 63, 65, 1) !important;
-}
 button.secondary:hover, .button.secondary:hover {
-	background-color: rgba(255, 255, 255, .7);
-	box-shadow: none;
+	background-color: rgba(74, 137, 243, 1);
 }
 button.secondary:active, .button.secondary:active {
-	background-color: rgba(255, 255, 255, .7);
-	box-shadow: none;
+	background-color: rgba(74, 137, 243, 1);
 }
  @media screen and (max-width: 736px) {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
@@ -842,6 +838,14 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	border-radius: 0.25rem;
 	padding: 0 1.75rem;
 	text-align: center;
+}
+input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
+	font-size: 0.85rem;
+	width: auto;
+	height: 2.5rem;
+	line-height: 3.15;
+	border-radius: 1.25rem;
+	padding: 0 0.8rem;
 }
 }
 /* Image */
@@ -900,7 +904,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 ol {
 	list-style: decimal;
 	margin: 0 0 0 0;
-	padding: 0 0 0 0.85rem;
+	padding: 0 0 0 0.25rem;
 }
 ol li {
 	padding-bottom: 1rem;
@@ -917,41 +921,11 @@ ul.alter {
 }
 ul li {
 	display: inline-block;
-	padding-right: 0.75rem;
-}
-ul.alter li {
-	display: block;
-	padding: 2rem 0;
-	border-top: 1px solid #e0e0e0;
-}
-dl {
-	margin: 0 0 2rem 0;
-}
-dl dt {
-	display: block;
-	margin: 0 0 1rem 0;
-}
-dl dd {
-	list-style: none;
-	margin-left: 2rem;
-	margin-top: 1.35rem;
-}
-dl.style2 dt {
-	width: 25%;
-	float: left;
-}
-dl.style2 dd {
-	width: 70%;
-	float: left;
-}
-dl.style2:after {
-	content: '';
-	display: block;
-	clear: both;
+	padding-right: 0.25rem;
 }
  @media screen and (max-width: 736px) {
-ul.alter li {
-	padding: 1.5rem 0;
+ul li {
+	padding: 0 0.15rem;
 }
 }
 /* Actions */
@@ -1985,7 +1959,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: #041e42;
+	background-color: #031F30;
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -2041,30 +2015,26 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1) !important;
 }
 #wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert button:hover, #wrapper > .invert .button:hover {
-	background-color: #428df0;
+	background-color: rgba(74, 137, 243, 1);
 	box-shadow: none;
-	color: #041e42 !important;
 }
 #wrapper > .invert input[type="submit"]:active, #wrapper > .invert input[type="reset"]:active, #wrapper > .invert input[type="button"]:active, #wrapper > .invert button:active, #wrapper > .invert .button:active {
-	background-color: #428df0;
+	background-color: rgba(74, 137, 243, 1);
 	box-shadow: none;
-	color: #041e42 !important;
 }
 #wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert button.primary, #wrapper > .invert .button.primary {
 	background-color: rgba(255, 255, 255, 1);
 	background-image: none;
 	box-shadow: none;
-	color: #041e42 !important;
+	color: rgba(3, 31, 48, 1) !important;
 }
 #wrapper > .invert input[type="submit"].primary:hover, #wrapper > .invert input[type="reset"].primary:hover, #wrapper > .invert input[type="button"].primary:hover, #wrapper > .invert button.primary:hover, #wrapper > .invert .button.primary:hover {
-	background-color: #4a89f3;
-	box-shadow: none;
-	color: #fff;
+	background-color: rgba(74, 137, 243, 1);
+	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input[type="submit"].primary:active, #wrapper > .invert input[type="reset"].primary:active, #wrapper > .invert input[type="button"].primary:active, #wrapper > .invert button.primary:active, #wrapper > .invert .button.primary:active {
 	background-color: #4a89f3;
-	box-shadow: none;
-	color: #fff;
+	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert label {
 	color: #fff;
