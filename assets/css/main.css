@@ -635,7 +635,7 @@ ul.box_link li {
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 0.35rem;
+	border-radius: 2rem;
 }
 .box_wide.box_wide_bg_01 {
 	position: relative;
@@ -1543,7 +1543,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.style4 .content {
 	position: relative;
 	width: 100%;
-	height: 100svh;
+	height: 80svh;
 	overflow: hidden;
 	z-index: 2;
 }
