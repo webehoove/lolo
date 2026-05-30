@@ -168,6 +168,9 @@ ul.topmenu li, ul.topmenu_block li {
 .logotype_sym_b {
 	width: 3rem;
 }
+.offdesk, .offdesk_title {
+	display: block;
+}
 }
  @media screen and (max-width: 768px) {
 #logotype_sym {
