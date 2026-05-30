@@ -45,12 +45,7 @@
 @media screen and (max-width: 1180px) {
 .menu-btn, .menu-btnb {
 	right: 1.5rem;
-	top: 2.5rem;
-}
-@media screen and (max-width: 980px) {
-.menu-btn, .menu-btnb {
- right: 1.5rem;
- top: 2.5rem;
+	top: 2.75rem;
 }
 }
 @media screen and (max-width: 820px) {
@@ -62,7 +57,7 @@
 @media screen and (max-width: 768px) {
 .menu-btn, .menu-btnb {
 	right: 1.5rem;
-	top: 3rem;
+	top: 2.5rem;
 }
 }
 .menu-btn span, .menu-btn:before, .menu-btn:after {
