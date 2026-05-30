@@ -258,12 +258,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .md_tt {
 	font-family: 'HAYAT Serif Medium', serif;
 	font-weight: normal;
-	letter-spacing: 0.075rem;
 }
 .bd_tt {
 	font-family: 'HAYAT Serif Bold', serif;
 	font-weight: normal;
-	letter-spacing: 0.075rem;
 }
 .eb_tt {
 	font-family: 'HAYAT Serif ExtraBold', serif;
@@ -526,7 +524,7 @@ h1.special {
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 2.45rem;
+	font-size: 2.15rem;
 	line-height: 1.1;
 }
 h2 {
